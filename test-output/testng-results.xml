@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="11285" started-at="2020-02-21T06:52:22Z" finished-at="2020-02-21T06:52:33Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="6161" started-at="2020-02-21T06:52:22Z" finished-at="2020-02-21T06:52:28Z">
+      <class name="tests.SearchTestWithTestNGParameter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTestWithTestNGParameter@72d818d1]" name="setUp" is-config="true" duration-ms="2238" started-at="2020-02-21T06:52:22Z" finished-at="2020-02-21T06:52:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:0, instance:tests.SearchTestWithTestNGParameter@72d818d1]" name="searchProduct" duration-ms="3506" started-at="2020-02-21T06:52:24Z" finished-at="2020-02-21T06:52:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT082410C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTestWithTestNGParameter@72d818d1]" name="tearDown" is-config="true" duration-ms="387" started-at="2020-02-21T06:52:28Z" finished-at="2020-02-21T06:52:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTestWithTestNGParameter -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="5106" started-at="2020-02-21T06:52:28Z" finished-at="2020-02-21T06:52:33Z">
+      <class name="tests.SearchTestWithTestNGParameter">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:tests.SearchTestWithTestNGParameter@71318ec4]" name="setUp" is-config="true" duration-ms="1471" started-at="2020-02-21T06:52:28Z" finished-at="2020-02-21T06:52:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="searchProduct(java.lang.String)[pri:0, instance:tests.SearchTestWithTestNGParameter@71318ec4]" name="searchProduct" duration-ms="3327" started-at="2020-02-21T06:52:29Z" finished-at="2020-02-21T06:52:33Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[AT122610C]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchProduct -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:tests.SearchTestWithTestNGParameter@71318ec4]" name="tearDown" is-config="true" duration-ms="305" started-at="2020-02-21T06:52:33Z" finished-at="2020-02-21T06:52:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.SearchTestWithTestNGParameter -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
